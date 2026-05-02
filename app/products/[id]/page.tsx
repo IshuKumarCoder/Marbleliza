@@ -204,7 +204,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
 
             {/* Split usesArea into pills with vertical dividers */}
             <div className="flex flex-wrap justify-center items-center gap-y-4 gap-x-2 sm:gap-x-0 text-[10px] sm:text-xs font-serif text-gray-800 tracking-widest font-semibold">
-              {product.usesArea ? product.usesArea.split(',').map((use, i, arr) => (
+              {product.usesArea ? product.usesArea.split(',').map((use: string, i: number, arr: string[]) => (
                 <div key={i} className="flex items-center">
                   <span className="px-2 sm:px-5 uppercase">{use.trim()}</span>
                   {i < arr.length - 1 && <div className="h-4 w-px bg-[#C7A074] hidden sm:block"></div>}
