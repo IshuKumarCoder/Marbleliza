@@ -177,14 +177,14 @@ export function Navbar() {
               Contact Us
             </Link>
             <a
-              href="tel:+0000000000"
+              href="tel:+917976999350"
               className="flex items-center gap-3 pt-4 border-t border-cream/10 mt-2"
               aria-label="Call us"
             >
               <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-cream text-cream transition-colors hover:bg-cream/10">
                 <PhoneIcon />
               </span>
-              <span className="opacity-90">+0000000000</span>
+              <span className="opacity-90">+917976999350</span>
             </a>
           </div>
         )}
